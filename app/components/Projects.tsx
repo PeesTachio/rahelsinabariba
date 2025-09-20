@@ -61,12 +61,12 @@ export default function Projects() {
     <section
       id="projects"
       ref={projectsRef}
-      className="py-20 bg-[var(--color-5)] font-system-ui scroll-mt-32"
+      className="py-20 bg-[var(--color-5)] font-system-ui scroll-mt-8"
     >
       <div className="max-w-5xl mx-auto px-6">
         {/* Judul */}
         <motion.h2
-          className="text-3xl md:text-4xl font-bold text-center text-[var(--color-1)] mb-12 font-system-ui"
+          className="text-3xl md:text-4xl font-bold text-center text-[var(--color-7)] mb-12 font-system-ui"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}   // ✅ selalu animasi setiap muncul

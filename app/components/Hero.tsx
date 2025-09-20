@@ -11,12 +11,12 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-[var(--color-5)] font-system-ui overflow-hidden">
       <motion.h1
-        className="text-4xl md:text-6xl font-bold text-[var(--color-1)] mb-2"
+        className="text-4xl md:text-6xl font-bold text-[var(--color-7)] mb-2"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
-        Hello, I’m <span className="text-[var(--color-1)]">Rahel</span>
+        Hello, I’m <span className="text-[var(--color-7)]">Rahel</span>
       </motion.h1>
 
       <motion.h2

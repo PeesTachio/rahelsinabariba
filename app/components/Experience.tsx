@@ -32,10 +32,10 @@ export default function Experience() {
   const isInView = useInView(timelineRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="py-20 bg-[var(--color-5)] font-system-ui scroll-mt-32">
+    <section id="experience" className="py-20 bg-[var(--color-5)] font-system-ui scroll-mt-8">
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2
-          className="text-3xl md:text-4xl font-bold text-center text-[var(--color-1)] mb-12"
+          className="text-3xl md:text-4xl font-bold text-center text-[var(--color-7)] mb-12"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
         >

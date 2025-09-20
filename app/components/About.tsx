@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-[var(--color-5)] font-geist scroll-mt-32">
+    <section id="about" className="py-20 bg-[var(--color-5)] font-geist scroll-mt-8">
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         <motion.div
           className="md:w-1/2 text-center md:text-left"
@@ -13,7 +13,7 @@ export default function About() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-1)] mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-7)] mb-6">
             About
           </h2>
           <p className="text-lg text-[var(--color-3)] leading-relaxed mb-4">

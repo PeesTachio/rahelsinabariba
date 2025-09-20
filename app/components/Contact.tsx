@@ -18,7 +18,7 @@ export default function Contact() {
     >
       <div className="max-w-4xl mx-auto text-center px-6">
         <motion.h2
-          className="text-3xl md:text-4xl font-bold text-[var(--color-1)] mb-8"
+          className="text-3xl md:text-4xl font-bold text-[var(--color-7)] mb-8"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
