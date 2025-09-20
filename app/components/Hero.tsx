@@ -43,7 +43,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9, duration: 0.6 }}
       >
-        Undergraduate Computer Science student passionate about database systems.
+        Undergraduate Computer Science student with a strong interest in database systems.
       </motion.p>
 
       <motion.div

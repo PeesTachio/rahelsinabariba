@@ -38,7 +38,7 @@ export default function Projects() {
     },
     {
       name: "Asphalt 9 Rejends UI Prototype",
-      desc: "A full-stack application that uses computer vision to detect and monitor user focus in real-time. Built with OpenCV, Python, and Flask, it integrates a web interface where users can view focus metrics and analytics.",
+      desc: "This project creates an interactive prototype of the Asphalt 9 Legends website using Figma, emphasizing modern UI design, intuitive navigation, and an engaging user experience.",
       tools: [
         { name: "Figma", url: "https://www.figma.com/" },
       ],
@@ -47,7 +47,7 @@ export default function Projects() {
     },
     {
       name: "Stroke Prediction Age Bias",
-      desc: "A full-stack application that uses computer vision to detect and monitor user focus in real-time. Built with OpenCV, Python, and Flask, it integrates a web interface where users can view focus metrics and analytics.",
+      desc: "Analyzing a stroke dataset to predict stroke risk using SVM, as it provided the best accuracy. The dataset exhibited a strong bias toward age, so predictions were more influenced by age than other factors. Streamlit was used to create an interactive dashboard that enabled real-time visualization of predictions and data exploration.",
       tools: [
         { name: "Python", url: "https://www.python.org/" },
         { name: "Streamlit", url: "https://streamlit.io/" },
