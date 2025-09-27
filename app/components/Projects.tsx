@@ -23,7 +23,7 @@ export default function Projects() {
     },
     {
       name: "AI Focus Detector",
-      desc: "A full-stack application that uses computer vision to detect and monitor user focus in real-time. Built with OpenCV, Python, and Flask, it integrates a web interface where users can view focus metrics and analytics.",
+      desc: "A full-stack application that uses computer vision to detect and monitor user focus in real-time with a web interface. I designed the main AI algorithm and several website enhancements using OpenCV, Python, and Flask, HTML and CSS.",
       tools: [
         { name: "OpenCV", url: "https://opencv.org/" },
         { name: "Python", url: "https://www.python.org/" },
@@ -39,15 +39,13 @@ export default function Projects() {
     {
       name: "Asphalt 9 Rejends UI Prototype",
       desc: "This project creates an interactive prototype of the Asphalt 9 Legends website using Figma, emphasizing modern UI design, intuitive navigation, and an engaging user experience.",
-      tools: [
-        { name: "Figma", url: "https://www.figma.com/" },
-      ],
+      tools: [{ name: "Figma", url: "https://www.figma.com/" }],
       image: "/Asphalt-9-Rejends-Figma.jpeg",
       link: "https://www.figma.com/proto/MrMTZQpNpSzLutmcvJXBXS/2702279741---Rahel-Mangoloi-Sinabariba?node-id=0-1&t=xrDzu9OTE8HxUjBq-1",
     },
     {
       name: "Stroke Prediction Age Bias",
-      desc: "Analyzing a stroke dataset to predict stroke risk using SVM, as it provided the best accuracy. The dataset exhibited a strong bias toward age, so predictions were more influenced by age than other factors. Streamlit was used to create an interactive dashboard that enabled real-time visualization of predictions and data exploration.",
+      desc: "Developed a stroke risk prediction using Support Vector Machine (SVM), which demonstrated the highest accuracy. The analysis revealed a significant age-related bias, with forecasts being strongly influenced by age compared to other factors. An interactive dashboard was developed using Streamlit to provide real-time visualization of forecasts.",
       tools: [
         { name: "Python", url: "https://www.python.org/" },
         { name: "Streamlit", url: "https://streamlit.io/" },
@@ -64,27 +62,25 @@ export default function Projects() {
       className="py-20 bg-[var(--color-5)] font-system-ui scroll-mt-8"
     >
       <div className="max-w-5xl mx-auto px-6">
-        {/* Judul */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-center text-[var(--color-7)] mb-12 font-system-ui"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false }}   // ✅ selalu animasi setiap muncul
+          viewport={{ once: false }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           Projects
         </motion.h2>
 
-        {/* Grid Projects */}
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, idx) => (
             <motion.div
               key={idx}
-              className="bg-[var(--color-5)] rounded-2xl shadow-lg overflow-hidden"
+              className="bg-[var(--color-5)] rounded-2xl shadow-lg overflow-hidden flex flex-col" 
               initial={{ opacity: 0, y: 50, scale: 0.95 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
-              viewport={{ once: false, amount: 0.2 }}  // ✅ animasi ulang saat muncul lagi
-              transition={{ duration: 0.5, delay: idx * 0.2, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.2 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
               whileHover={{ y: -5, boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}
             >
               <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -98,14 +94,15 @@ export default function Projects() {
                 </div>
               </a>
 
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow"> {}
                 <h3 className="text-xl font-semibold text-[var(--color-2)] mb-2 font-system-ui">
                   {project.name}
                 </h3>
-                <p className="text-[var(--color-3)] mb-4 font-system-ui">
+                <p className="text-[var(--color-3)] mb-4 font-system-ui flex-grow">
                   {project.desc}
                 </p>
-                <div className="flex flex-wrap gap-2">
+
+                <div className="flex flex-wrap gap-2 mt-auto"> {}
                   {project.tools.map((tool, tIdx) => (
                     <a
                       key={tIdx}

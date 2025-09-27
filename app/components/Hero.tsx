@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 export default function Hero() {
   const typingKey = Date.now();
 
-  const phrases = ["Undergraduate Student", "Database Enthusiast"];
+  const phrases = ["Undergraduate Student", "Database Concentration"];
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-[var(--color-5)] font-system-ui overflow-hidden">
@@ -43,7 +43,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9, duration: 0.6 }}
       >
-        Undergraduate Computer Science student with a strong interest in database systems.
+        Undergraduate Computer Science student with an interest in database systems.
       </motion.p>
 
       <motion.div
@@ -54,7 +54,7 @@ export default function Hero() {
       >
         <a
           href="#projects"
-          className="px-6 py-3 bg-[var(--color-3)] text-[var(--color-5)] rounded-full shadow-md hover:scale-105 transition-transform"
+          className="px-6 py-3 bg-[var(--color-8)] text-[var(--color-1)] rounded-full shadow-md hover:scale-105 transition-transform"
         >
           Projects
         </a>

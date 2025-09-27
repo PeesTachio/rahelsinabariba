@@ -17,15 +17,15 @@ export default function About() {
             About
           </h2>
           <p className="text-lg text-[var(--color-3)] leading-relaxed mb-4">
-            I am a Computer Science student specializing in{" "}
-            <span className="font-bold">Database systems</span>. I enjoy learning the latest technologies.
+            I am a Computer Science student passionate about{" "}
+            <span className="font-bold">Database systems</span> and eager to continue exploring the latest technologies.
           </p>
           <p className="text-lg text-[var(--color-3)] leading-relaxed mb-4">
-            Throughout my studies, I have worked on several assignments and projects using related technologies.
+            During my studies, I have worked on several projects and assignments that strengthened my skills in this area.
           </p>
           <p className="text-lg text-[var(--color-3)] leading-relaxed">
-            I am always excited to take on new challenges, collaborate with teams, and continuously develop my technical
-            skills and creativity in building meaningful digital solutions.
+            I am enthusiastic about taking on new challenges, collaborating within teams, and continuously developing both 
+            my technical expertise and creativity to build impactful digital solutions.
           </p>
         </motion.div>
 
@@ -44,7 +44,7 @@ export default function About() {
               alt="Profile Photo"
               width={300}
               height={300}
-              className="object-cover shadow-lg rounded-xl"
+              className="object-cover shadow-lg rounded-3xl"
             />
           </motion.div>
         </motion.div>
