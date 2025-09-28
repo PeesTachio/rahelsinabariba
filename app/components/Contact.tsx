@@ -83,7 +83,7 @@ export default function Contact() {
                   className="p-4 bg-[var(--color-8)] rounded-full shadow-lg flex items-center justify-center"
                   whileHover={{ scale: 1.2, backgroundColor: "var(--color-9)" }}
                   whileTap={{ scale: 0.95 }}
-                  transition={{ duration: 0.3, ease: "easeOut" }} // hover tetap smooth
+                  transition={{ duration: 0.3, ease: "easeOut" }}
                 >
                   <Icon className="w-6 h-6 text-[var(--color-2)]" />
                 </motion.a>
@@ -101,7 +101,7 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.08, y: -3, boxShadow: "0 8px 20px rgba(0,0,0,0.3)" }}
             whileTap={{ scale: 0.95, y: 0 }}
-            transition={{ duration: 0.3, ease: "easeOut" }} // hover tetap smooth
+            transition={{ duration: 0.3, ease: "easeOut" }} 
           >
             View Resume
           </motion.a>
